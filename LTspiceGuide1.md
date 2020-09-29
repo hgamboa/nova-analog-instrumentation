@@ -29,6 +29,7 @@
 
 The diagram is the following:
 
+![Circuit Diagram](LTopsimulation.jpg)
 
 
 The simulation is made by introducing a spice directive 
