@@ -1,2 +1,2 @@
 # nova-analog-instrumentation
-Guides for Analog Isntrumentation Classes at FCT-UNL Physics Department
+Guides for Analog Instrumentation Classes at FCT-UNL Physics Department
