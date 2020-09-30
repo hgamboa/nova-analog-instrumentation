@@ -17,13 +17,16 @@
 
 ## Tasks
 
+### Task 1  - .op Directive
+
 1. Draw the second stage of the Coolpits Oscilator 
-  - Introduce each of the components (R, C, Voltage source)
-  - Introduce the specific values to each component
-  - Add NPN transistor and the select the type to be 2N2222
-  - Add a ground 
-  - Connect the circut with wires
-  - Add a .op spice directive
+   1. Introduce each of the components (R, C, Voltage source)
+   1. Introduce the specific values to each component
+   1. Add NPN transistor and the select the type to be 2N2222
+   1. Add a ground 
+   1. Connect the circut with wires
+   1. Add labels to a net points (Vb and Ve)
+   1. Add a .op spice directive
 2. Compute the expected value for Vb and Ve 
 3. Execute a DC simulation and check the spice output
 
@@ -34,7 +37,24 @@ The diagram is the following:
 
 The simulation is made by introducing a spice directive 
 
+```
 .op
+```
 
 Then check spice error log and verify V(Vb) and V(Ve), compare with your  expected results.
+
+### Task 2 - .step directive 
+
+1. Change the value of R2 to {R}
+2. Change the spice directive to 
+
+```
+.step param R 100 10k 100
+.op
+```
+
+3. Run simulation and use the scope to observe Vb and Ic
+
+
+
 
