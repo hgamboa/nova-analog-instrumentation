@@ -45,7 +45,7 @@ Then check spice error log and verify V(Vb) and V(Ve), compare with your  expect
 
 ### Task 2 - .step directive 
 
-1. Change the value of R2 to {R}
+1. Change the value of R1 to {R} (instead of 3.3k)
 2. Change the spice directive to 
 
 ```
