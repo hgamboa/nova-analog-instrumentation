@@ -1,6 +1,6 @@
-# Guide 1 - Intro to LTspice
+# Guide 1 - Intro to LTspice - .op and .step simulation directives 
 
-## Pre requeirments 
+## Pre requirements 
 
 1. Install [ltspice]( https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html )
 
@@ -24,7 +24,7 @@
    1. Introduce the specific values to each component
    1. Add NPN transistor and the select the type to be 2N2222
    1. Add a ground 
-   1. Connect the circut with wires
+   1. Connect the circuit with wires
    1. Add labels to a net points (Vb and Ve)
    1. Add a .op spice directive
 2. Compute the expected value for Vb and Ve 
