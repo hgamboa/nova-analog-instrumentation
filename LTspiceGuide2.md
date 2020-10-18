@@ -40,6 +40,11 @@ The diagram is the following:
     1. Validate the impact of the noise for different frequencies. 
 1. Compare the observed values with the transfer function of a low pass filter: |G(F)| = 1/sqrt(1 + (F/Fc)^2) 
 
+The diagram is the following:
+
+![Circuit Diagram 2](LTNoiseSource.png)
+
+
 ### Task 3. - .tran directive to study a monostable 
 
 1. Implement a Schmitt Trigger Comparator as in the following diagram. (Follow this [link](https://www.electronics-tutorials.ws/opamp/op-amp-multivibrator.html) for extended analysis)
