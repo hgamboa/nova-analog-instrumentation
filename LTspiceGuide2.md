@@ -61,7 +61,7 @@ The diagram is the following:
 
     1. Create a negative pulse (PULSE 2.5 -2.5 0 0 0 10m 500m)
     1. Change the schematic following the next diagram.
-    1. Measure the output impulse duration and compare with T = R3*C2*ln((1+R1/R2)) (Check this [link](https://www.electronics-tutorials.ws/opamp/op-amp-monostable.html)
+    1. Measure the output impulse duration and compare with T = R3*C2*ln((1+R1/R2)) (Check this [link](https://www.electronics-tutorials.ws/opamp/op-amp-monostable.html))
     
     
 The diagram is the following:
