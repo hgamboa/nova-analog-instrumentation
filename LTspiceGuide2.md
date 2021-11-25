@@ -13,7 +13,7 @@
 ### Task 1  - .ac directive
 
 1. Draw a fist order active filter based on an OpAmp in non-inverting montage
-   1. Introduce the signal source (V1)and label as signal with a sine function with 0V in DC, an amplitude of 1V and a base frequency of 50HZ: SINE(0 1 50) 
+   1. Introduce the signal source (V1)and label as signal with a sine function with 0V in DC, an amplitude of 1V and a base frequency of 50HZ: SINE(0 1 50). Also place on .ac amplitude 1V.  
    1. Create two symetric sources of 2.5 (V2) and -2.5 (V3), and label as V+ and V-
    1. Introduce an OpAmp (AD8554) and connect the power inputs.
    1. Introduce an R (1kOhm) and C (1uF), grounds and the loop connection on the negative terminal of the OpAmp as in diagram 1. 
